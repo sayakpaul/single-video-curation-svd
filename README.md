@@ -60,6 +60,8 @@ We had to apply some corrections to `eilev` to make it work. The correction patc
 
 `video_preprocessing_optical_flow_score.ipynb` notebook shows the optical flow score computation only using the Farneback algorithm. It doesn't, however, show [RAFT](https://arxiv.org/abs/2003.12039).
 
+</details>
+
 <details>
 <summary>Caption similarities and Aesthetics</summary>
 
