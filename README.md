@@ -6,7 +6,7 @@ The curation techniques used in this repository are discussed in _Appendix C_ of
 
 * Cascaded Cut Detection
 * Keyframe-Aware Clipping
-* Optical Flow (to be implemented)
+* Optical Flow
 * Synthetic Captioning
 * Caption similarities and Aesthetics
 * Text Detection
@@ -16,6 +16,8 @@ The notebooks present these techniques on a single video file sourced from the U
 | **Video** | **CoCa Caption** | **V-BLIP Caption** | **Zephyr-7B Caption** |
 |:------------:|:-----:|:------------:|:-----:|
 |  ![](https://huggingface.co/datasets/sayakpaul/sample-datasets/resolve/main/Basketball.gif) |  a group of men playing basketball on a court .  | the basketball player dribbles to the basket | A basketball player in a group of men dribbles towards the basket on a court. |
+
+Readers are advised to first go through the Appendix C of the Stable Video Diffusion paper before referring to the notebooks.
 
 ## Setup 
 
@@ -54,6 +56,11 @@ We had to apply some corrections to `eilev` to make it work. The correction patc
 </details>
 
 <details>
+<summary>Optical Flow</summary>
+
+`video_preprocessing_optical_flow_score.ipynb` notebook shows the optical flow score computation only using the Farneback algorithm. It doesn't, however, show [RAFT](https://arxiv.org/abs/2003.12039).
+
+<details>
 <summary>Caption similarities and Aesthetics</summary>
 
 This is straightforward and is implemented in the `video_preprocessing_similarity_aesthetics.ipynb` notebook.
@@ -70,3 +77,5 @@ Refer to the `video_preprocessing_text_detection.ipynb` notebook for this. We us
 ## Acknowledgements
 
 Thanks to ChatGPT for all the help.
+
+Thanks to [Dhruv Nair](https://github.com/DN6) for his reviews. 
