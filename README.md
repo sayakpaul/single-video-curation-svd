@@ -11,13 +11,13 @@ The curation techniques used in this repository are discussed in _Appendix C_ of
 * Caption similarities and Aesthetics
 * Text Detection
 
-The notebooks present these techniques on a single video file sourced from the UCF-101 dataset. 
+The notebooks present these techniques on a single video file sourced from the [UCF-101 dataset](https://www.crcv.ucf.edu/data/UCF101.php). 
 
 | **Video** | **CoCa Caption** | **V-BLIP Caption** | **Zephyr-7B Caption** |
 |:------------:|:-----:|:------------:|:-----:|
 |  ![](https://huggingface.co/datasets/sayakpaul/sample-datasets/resolve/main/Basketball.gif) |  a group of men playing basketball on a court .  | the basketball player dribbles to the basket | A basketball player in a group of men dribbles towards the basket on a court. |
 
-Readers are advised to first go through the Appendix C of the Stable Video Diffusion paper before referring to the notebooks.
+Readers are advised to first go through Appendix C of the Stable Video Diffusion paper before referring to the notebooks.
 
 ## Setup 
 
